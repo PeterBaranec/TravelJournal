@@ -1,11 +1,17 @@
 .card {
     width: 470px;
-    margin: 2.5rem;
+    margin-inline: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: left;
+    padding-block: 2rem;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card:last-child {
+    border: none;
 }
 
 .flex--flow {
