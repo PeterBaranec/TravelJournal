@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 /* Remove default margin in favour of better control in authored CSS */
 body,
 h1,
@@ -25,4 +29,10 @@ dl,
 dd {
   margin: 0;
   padding: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
